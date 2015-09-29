@@ -1,0 +1,30 @@
+
+#header {
+    background-color: antiquewhite;
+}
+
+li {
+    display: inline-block;
+    margin: 2vw;
+}
+
+a:link {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+a:visited {
+    color: cornflowerblue;
+}
+
+a:hover {
+    color: coral;
+}
+
+h3 {
+    text-align: center;
+}
+
+h3+h4 {
+    text-align: center;
+}
