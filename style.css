@@ -3,6 +3,30 @@
     background-color: antiquewhite;
 }
 
+#about_me {
+    color: cornflowerblue;
+    font-size: 15vh;
+    font-family: Stalemate, cursive;
+}
+
+#skills {
+    color: goldenrod;
+    font-size: 15vh;
+    font-family: Stalemate, cursive;
+}
+
+#experience {
+    color: olive;
+    font-size: 15vh;
+    font-family: Stalemate, cursive;
+}
+
+#contact_me {
+    color: lightcoral;
+    font-size: 15vh;
+    font-family: Stalemate, cursive;
+}
+
 li {
     display: inline-block;
     margin: 2vw;
@@ -27,4 +51,5 @@ h3 {
 
 h3+h4 {
     text-align: center;
+    font-family: Helvetica, sans-serif;
 }
