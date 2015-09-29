@@ -1,6 +1,10 @@
 
 #header {
-    background-color: antiquewhite;
+    background-color: rosybrown;
+}
+
+#nav {
+    font-size: 3vh;
 }
 
 #about_me {
@@ -27,26 +31,32 @@
     font-family: Stalemate, cursive;
 }
 
+body {
+    background-color: antiquewhite;
+}
+
 li {
     display: inline-block;
     margin: 2vw;
 }
 
+
 a:link {
     text-decoration: none;
-    color: cornflowerblue;
+    color: antiquewhite;
 }
 
 a:visited {
-    color: cornflowerblue;
+    color: antiquewhite;
 }
 
 a:hover {
-    color: coral;
+    color: lightcoral;
 }
 
 h3 {
     text-align: center;
+    background-color: antiquewhite;
 }
 
 h3+h4 {
