@@ -1,26 +1,48 @@
 
-#header {
+/*#header {
     background-color: rosybrown;
-}
+    height: auto;
+    width: auto;
+    margin: 0 20vw 0 20vw;
+}*/
 
 #nav {
     font-size: 3vh;
+    color: antiquewhite;
+}
+
+.nav_li {
+    color: antiquewhite;
+}
+
+#second_header {
+    height: 75px;
+    width: 1100px;
+    background-color: lightcoral;
+    color: antiquewhite;
+    font-family: Stalemate, cursive;
+    font-size: 40px;
 }
 
 #about_me {
-    color: cornflowerblue;
+    color: lightcoral;
     font-size: 15vh;
     font-family: Stalemate, cursive;
 }
 
+.section_div {
+    height: auto;
+    width: auto;
+    margin: 0 20vw 0 20vw;
+}
 #skills {
-    color: goldenrod;
+    color: lightcoral;
     font-size: 15vh;
     font-family: Stalemate, cursive;
 }
 
 #experience {
-    color: olive;
+    color: lightcoral;
     font-size: 15vh;
     font-family: Stalemate, cursive;
 }
@@ -32,31 +54,27 @@
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 li {
     display: inline-block;
-    margin: 2vw;
+    margin: 0;
+    padding: 10px 20px 0 20px;
 }
 
 
 a:link {
     text-decoration: none;
-    color: antiquewhite;
 }
 
 a:visited {
     color: antiquewhite;
 }
 
-a:hover {
-    color: lightcoral;
-}
 
 h3 {
     text-align: center;
-    background-color: antiquewhite;
 }
 
 h3+h4 {
