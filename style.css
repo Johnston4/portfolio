@@ -16,45 +16,57 @@
 }
 
 #second_header {
+    position:fixed;
+    top: 0;
     height: 75px;
     width: 1100px;
     background-color: lightcoral;
     color: antiquewhite;
     font-family: Stalemate, cursive;
     font-size: 40px;
+    margin: 0;
 }
 
+#second_header_ul {
+    margin: 0;
+
+}
 #about_me {
     color: lightcoral;
     font-size: 15vh;
     font-family: Stalemate, cursive;
+    padding: 20vh 0 0 0;
 }
 
 .section_div {
     height: auto;
     width: auto;
-    margin: 15vh 20vw 15vh 20vw;
+    margin: 15vh 10vw 15vh 10vw;
 }
 #skills {
     color: lightcoral;
     font-size: 15vh;
     font-family: Stalemate, cursive;
+    padding: 20vh 0 0 0;
 }
 
 #experience {
     color: lightcoral;
     font-size: 15vh;
     font-family: Stalemate, cursive;
+    padding: 20vh 0 0 0;
 }
 
 #contact_me {
     color: lightcoral;
     font-size: 15vh;
     font-family: Stalemate, cursive;
+    padding: 20vh 0 0 0;
 }
 
 body {
     background-color: antiquewhite;
+    width: 1100px;
 }
 
 li {
