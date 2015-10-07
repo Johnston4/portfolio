@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Stalemate' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <div id="second_header">
@@ -131,35 +132,19 @@
         </h4>
         <p>
             <a style="color: lightcoral" href="https://www.linkedin.com/pub/sara-a-johnston/71/a89/457">LinkedIn</a>
-        </p>
-        <p>
             <a style="color: lightcoral" href="https://github.com/Johnston4">GitHub</a>
-        </p>
-        <p>
-            Email: sarajohnston4@gmail.com
+            <a style="color: lightcoral" href="mailto:sarajohnston4@gmail.com">Email</a>
+            <a style="color: lightcoral" href="https://www.facebook.com/sara.johnston.92775" target="_blank">Facebook</a>
+            <a style="color: lightcoral" href="https://twitter.com/infernokiss" target="_blank">Twitter</a>
         </p>
     </div>
     <div id="form" class="section_div">
-        <form>
-            <h4>
-                Name:
-            </h4>
-            <input type="text" name="name">
-            <br>
-            <h4>
-                Message:
-            </h4>
-            <input type="text" name="message">
-            <br>
-            <h4>
-                Email:
-            </h4>
-            <input type="text" name="email">
-            <br><br>
-            <h4>
-                Submit!
-            </h4>
-            <input type="submit">
+        <form action="http://learningfuze.com/echo.php" method="post">
+            <input type="text" name="firstname" placeholder="First Name">
+            <input type="text" name="lastname" placeholder="Last Name">
+            <input type="text" name="email" placeholder="Email">
+            <textarea rows="4" name="message" placeholder="Message"></textarea>
+            <button type="submit" name="submit">Submit</button>
         </form>
     </div>
 </div>
