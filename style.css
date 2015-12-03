@@ -6,16 +6,6 @@
     margin: 0 20vw 0 20vw;
 }*/
 
-#nav {
-    font-size: 3vh;
-    color: antiquewhite;
-}
-
-.nav_li {
-    color: antiquewhite;
-}
-
-
 
 #second_header_ul {
     margin: 0;
@@ -26,23 +16,17 @@
     top: 10vw;
 }
 
-#about_me {
-    color: lightcoral;
-    font-size: 15vh;
-    font-family: Stalemate, cursive;
-    padding: 20vh 0 0 0;
-}
 #second_header {
     z-index: 1000;
     position:fixed;
     top: 0;
     left: 0;
-    height: 75px;
-    width: 1100px;
-    background-color: lightcoral;
-    color: antiquewhite;
+    height: 5vw;
+    width: 100%;
+    background-color: #121212;
+    color: whitesmoke;
     font-family: Stalemate, cursive;
-    font-size: 40px;
+    font-size: 3vw;
     margin: 0;
 }
 .section_div {
@@ -50,48 +34,37 @@
     width: auto;
     margin: 15vh 10vw 15vh 10vw;
 }
-#skills {
-    color: lightcoral;
-    font-size: 15vh;
-    font-family: Stalemate, cursive;
-    padding: 20vh 0 0 0;
-}
-
-#experience {
-    color: lightcoral;
-    font-size: 15vh;
-    font-family: Stalemate, cursive;
-    padding: 20vh 0 0 0;
-}
-
-#contact_me {
-    color: lightcoral;
+#about_me, #skills, #experience, #contact_me {
+    color: black;
     font-size: 15vh;
     font-family: Stalemate, cursive;
     padding: 20vh 0 0 0;
 }
 
 body {
-    background-color: antiquewhite;
-    width: 1100px;
+    background-image: url(http://www.newhdwallpapers.in/wp-content/uploads/2014/10/Geometric-Abstract-Shapes-Dark-Background.jpg);
+    width: 100vw;
 }
 
 li {
     display: inline-block;
     margin: 0;
     padding: 10px 20px 0 20px;
+    opacity: 0.7;
 }
-
 
 a:link {
     text-decoration: none;
 }
 
 a:visited {
-    color: antiquewhite;
+    color: whitesmoke;
 }
 
-
+.skill_img{
+    width: 19%;
+    height: 10vw;
+}
 h3 {
     text-align: center;
 }
