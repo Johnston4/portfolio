@@ -24,7 +24,6 @@
     height: 5vw;
     width: 100%;
     background-color: lightcoral;
-    color: antiquewhite;
     font-family: Stalemate, cursive;
     font-size: 3vw;
     margin: 0;
@@ -50,15 +49,15 @@ li {
     display: inline-block;
     margin: 0;
     padding: 10px 20px 0 20px;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 a:link {
     text-decoration: none;
 }
 
-a:visited {
-    color: antiquewhite;
+a:visited, #second_header {
+    color: white;
 }
 
 .skill_img{
