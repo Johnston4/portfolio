@@ -23,8 +23,8 @@
     left: 0;
     height: 5vw;
     width: 100%;
-    background-color: #121212;
-    color: whitesmoke;
+    background-color: lightcoral;
+    color: antiquewhite;
     font-family: Stalemate, cursive;
     font-size: 3vw;
     margin: 0;
@@ -58,7 +58,7 @@ a:link {
 }
 
 a:visited {
-    color: whitesmoke;
+    color: antiquewhite;
 }
 
 .skill_img{
@@ -100,7 +100,7 @@ button {
     height: 3vw;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
 
     body, #second_header, #second_header_ul, .section_div {
         width: 100%;
