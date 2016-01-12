@@ -89,13 +89,13 @@ li {
 .section_div {
     height: auto;
     width: 100%;
-    #margin: 15vh 10vw 15vh 10vw;
+    margin-top: 2%;
 }
 #about_me, #skills, #experience, #contact_me {
     color: black;
     font-size: 15vh;
     font-family: Stalemate, cursive;
-    padding: 20vh 0 0 0;
+    padding: 9.9vh 0 0 0;
 }
 
 body {
@@ -118,6 +118,9 @@ a:visited, #second_header {
     color: white;
 }
 
+#title {
+    font-size: 4vw;
+}
 .skill_img{
     width: 100%;
     height: 95%;
@@ -125,10 +128,10 @@ a:visited, #second_header {
 }
 .img_box {
     position: relative;
-    width: 14vw;
-    height:12vw;
+    width: 10.71vw;
+    height:12.5vw;
+    display: inline-block;
     float: left;
-    margin: 0;
     background-color: rgba(255, 255, 255, 0.3);
 
 }
@@ -136,18 +139,29 @@ a:visited, #second_header {
     background-color: white;
     opacity: 0.5;
 }
-
-.title_box {
+.top_row {
+    margin-top: 2%;
+}
+.title_box, .info_box {
+    margin-top: 2%;
     text-align: center;
     font-family: Stalemate, cursive;
     float: left;
+    display: inline-block;
     width: 25vw;
     height: 25vw;
+
+}
+.title_box {
     background-color: rgba(255,255, 255, 0.4);
+}
+.info_box {
+    background-color: rgba(255,255, 255, 0.6);
 }
 
 p {
     font-family: Helvetica, sans-serif;
+    font-size: .9em;
 }
 input, textarea {
     display: block;
