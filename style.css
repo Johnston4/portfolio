@@ -164,7 +164,7 @@ p {
     font-size: .9em;
 }
 input, textarea {
-    display: block;
+    #display: block;
     width: 30%;
     height: 3vw;
     margin: 5% 0 0 2%;
