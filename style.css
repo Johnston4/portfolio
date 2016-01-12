@@ -87,9 +87,9 @@ li {
 }
 
 .section_div {
-    height: auto;
-    width: 100%;
-    margin-top: 2%;
+    #height: auto;
+    #width: 100%;
+    #margin-top: 2%;
 }
 #about_me, #skills, #experience, #contact_me {
     color: black;
@@ -139,10 +139,14 @@ a:visited, #second_header {
     background-color: white;
     opacity: 0.5;
 }
-.top_row {
+.top_row{
     margin-top: 2%;
 }
+.bottom {
+    margin-bottom: -1px;
+}
 .title_box, .info_box {
+    margin-bottom: -1px;
     margin-top: 2%;
     text-align: center;
     font-family: Stalemate, cursive;
