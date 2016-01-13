@@ -1,7 +1,7 @@
 
 body {
     position: relative;
-    background-image: url(images/Geometric-Abstract-Shapes-Dark-Background.jpg);
+    background-image: url(pix/Geometric-Abstract-Shapes-Dark-Background.jpg);
     width: 100vw;
     height: auto;
     margin: 0;
@@ -152,13 +152,13 @@ p {
     font-size: 2vh;
 }
 
-/*This is for the images in the skill section*/
+/*This is for the pix in the skill section*/
 .skill_img{
     width: 100%;
     height: 95%;
     margin-top: 2%;
 }
-/*This is the box div the skill images are inside*/
+/*This is the box div the skill pix are inside*/
 .img_box {
     position: relative;
     width: 10.71vw;
@@ -168,7 +168,7 @@ p {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-/*This is for the box divs without images in the skill section*/
+/*This is for the box divs without pix in the skill section*/
 .offset_box {
     background-color: white;
     opacity: 0.5;
