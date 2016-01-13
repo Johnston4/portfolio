@@ -6,6 +6,14 @@
     margin: 0 20vw 0 20vw;
 }*/
 
+body {
+    background-image: url(images/Geometric-Abstract-Shapes-Dark-Background.jpg);
+    width: 100vw;
+    margin: 0;
+}
+
+
+/*The following is for the header list*/
 #header {
     z-index: 1000;
     position: fixed;
@@ -48,8 +56,21 @@
 
 li {
     height: 100%;
+    display: inline-block;
+    margin: 0;
+}
+a:link {
+    text-decoration: none;
+    color: white;
 }
 
+a:visited, #second_header {
+    color: white;
+}
+
+#title {
+    font-size: 2vw;
+}
 /*Following code is specifically for the chevron shapes in the navigation bar*/
 
 .nav_left:after {
@@ -93,78 +114,40 @@ li {
 }
 
 #about_me, #skills, #projects, #contact_me {
-    color: black;
+    color: white;
     font-size: 13vh;
     font-family: Amatic SC, sans-serif;
     padding: 9.9vh 0 0 0;
 }
 
-body {
-    background-image: url(http://www.newhdwallpapers.in/wp-content/uploads/2014/10/Geometric-Abstract-Shapes-Dark-Background.jpg);
-    width: 100vw;
-    margin: 0;
-}
 
-li {
-    display: inline-block;
-    margin: 0;
-}
-
-a:link {
-    text-decoration: none;
-    color: white;
-}
-
-a:visited, #second_header {
-    color: white;
-}
-
-#title {
-    font-size: 2vw;
-}
-.skill_img{
-    width: 100%;
-    height: 95%;
-    margin-top: 2%;
-}
-.img_box {
-    position: relative;
-    width: 10.71vw;
-    height:12.5vw;
-    display: inline-block;
-    float: left;
-    background-color: rgba(255, 255, 255, 0.3);
-
-}
-.offset_box {
-    background-color: white;
-    opacity: 0.5;
-}
-.top_row{
-    margin-top: 2%;
-}
-.bottom {
-    margin-bottom: -1px;
-}
 .title_box, .info_box {
     margin-bottom: -1px;
-    margin-top: 2%;
+    margin-top: 5%;
+    /*if you change margin here, you have to change margin at .top_row*/
     text-align: center;
     font-family: Amatic SC, sans-serif;
     float: left;
     display: inline-block;
     width: 25vw;
     height: 25vw;
+}
 
+.top_row{
+    margin-top: 5%;
 }
+
 .title_box {
-    background-color: rgba(255,255, 255, 0.4);
+    background-color: rgba(105, 105, 105, 0.7);
 }
+
 .title_box p {
     font-family: Amatic SC, sans-serif;
     font-size: 2em;
     margin: 5% 0 0 0;
+    color: white;
 }
+
 .info_box {
     background-color: rgba(255,255, 255, 0.6);
 }
@@ -173,6 +156,31 @@ p {
     font-family: Helvetica, sans-serif;
     font-size: .9em;
 }
+
+/*This is for the images in the skill section*/
+.skill_img{
+    width: 100%;
+    height: 95%;
+    margin-top: 2%;
+}
+/*This is the box div the skill images are inside*/
+.img_box {
+    position: relative;
+    width: 10.71vw;
+    height:12.5vw;
+    display: inline-block;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/*This is for the box divs without images in the skill section*/
+.offset_box {
+    background-color: white;
+    opacity: 0.5;
+}
+
+
+
 input, textarea {
     height: 3vw;
     margin: 5% 0 0 2%;
