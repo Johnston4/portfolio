@@ -23,17 +23,17 @@
     position: fixed;
     top: 0;
     left: 0;
-    height: 80px;
+    height: 60px;
     width: 100%;
-    background-color: dimgray;
+    background-color: #595959;
     font-family: Amatic SC, sans-serif;
     margin: 0;
-    font-size: 1.5em;
+    font-size: 4vh;
 }
 
 .nav_right, .nav_center, .nav_left {
     float: left;
-    background: #3498db;
+    background: #404040;
     text-align: center;
     position: relative;
     #width: 50%;
@@ -44,46 +44,46 @@
     margin: 0 1.5vw;
 }
 .nav_right{
-    padding: 0 1vw 0 3vw;
+    padding: 0 0 0 3vw;
 }
 .nav_left{
-    padding: 0 3vw 0 1vw;
+    padding: 0 3vw 0 0;
 }
 
 li {
     height: 100%;
 }
 
-
 .nav_left:after {
     content: "";
-    border-top: 40px solid #3498db;
-    border-bottom: 40px solid #3498db;
-    border-right: 40px solid dimgrey;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 30px solid #595959;
     position: absolute; right: 0; top: 0;
 }
 
 .nav_left:before, .nav_center:before {
     content: "";
-    border-top: 40px solid transparent;
-    border-bottom: 40px solid transparent;
-    border-right: 40px solid #3498db;
-    position: absolute; left: -40px; top: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 30px solid #404040;
+    position: absolute; left: -30px; top: 0;
 }
 
 .nav_right:after, .nav_center:after {
     content: "";
-    border-top: 40px solid transparent;
-    border-bottom: 40px solid transparent;
-    border-left: 40px solid #3498db;
-    position: absolute; right: -40px; top: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid #404040;
+    position: absolute; right: -30px; top: 0;
     z-index: 10;
 }
+
 .nav_right:before {
     content: "";
-    border-top: 40px solid transparent;
-    border-bottom: 40px solid transparent;
-    border-left: 40px solid dimgray;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid #595959;
     position: absolute; left: 0; top: 0;
 }
 
@@ -99,7 +99,7 @@ li {
 #about_me, #skills, #projects, #contact_me {
     color: black;
     font-size: 15vh;
-    font-family: Stalemate, cursive;
+    font-family: Amatic SC, sans-serif;
     padding: 9.9vh 0 0 0;
 }
 
@@ -124,7 +124,7 @@ a:visited, #second_header {
 }
 
 #title {
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 .skill_img{
     width: 100%;
@@ -154,7 +154,7 @@ a:visited, #second_header {
     margin-bottom: -1px;
     margin-top: 2%;
     text-align: center;
-    font-family: Stalemate, cursive;
+    font-family: Amatic SC, sans-serif;
     float: left;
     display: inline-block;
     width: 25vw;
