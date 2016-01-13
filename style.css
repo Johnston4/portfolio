@@ -6,19 +6,7 @@
     margin: 0 20vw 0 20vw;
 }*/
 
-#second_header_ul {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    height: 100%;
-}
-
-#main_content {
-    position: relative;
-    top: 10vh;
-}
-
-#second_header {
+#header {
     z-index: 1000;
     position: fixed;
     top: 0;
@@ -31,12 +19,20 @@
     font-size: 4vh;
 }
 
+#header_ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100%;
+}
+
+/*The following is the styling for the navigation bar*/
+
 .nav_right, .nav_center, .nav_left {
     float: left;
     background: #404040;
     text-align: center;
     position: relative;
-    #width: 50%;
     height: 100%;
     font-size: 1.5em;
     text-decoration: none;
@@ -53,6 +49,8 @@
 li {
     height: 100%;
 }
+
+/*Following code is specifically for the chevron shapes in the navigation bar*/
 
 .nav_left:after {
     content: "";
@@ -87,18 +85,16 @@ li {
     position: absolute; left: 0; top: 0;
 }
 
-#second_header #second_header_ul li .about {
-    #background-color: red;
+/*The following is the main content styling*/
+
+#main_content {
+    position: relative;
+    top: 10vh;
 }
 
-.section_div {
-    #height: auto;
-    #width: 100%;
-    #margin-top: 2%;
-}
 #about_me, #skills, #projects, #contact_me {
     color: black;
-    font-size: 15vh;
+    font-size: 13vh;
     font-family: Amatic SC, sans-serif;
     padding: 9.9vh 0 0 0;
 }
@@ -163,6 +159,11 @@ a:visited, #second_header {
 }
 .title_box {
     background-color: rgba(255,255, 255, 0.4);
+}
+.title_box p {
+    font-family: Amatic SC, sans-serif;
+    font-size: 2em;
+    margin: 5% 0 0 0;
 }
 .info_box {
     background-color: rgba(255,255, 255, 0.6);
