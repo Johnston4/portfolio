@@ -9,6 +9,7 @@ body {
 
 /*The following is for the header list*/
 #header {
+    font-family: Amatic SC, sans-serif;
     z-index: 1000;
     position: fixed;
     top: 0;
@@ -16,9 +17,8 @@ body {
     height: 60px;
     width: 100%;
     background-color: #595959;
-    font-family: Amatic SC, sans-serif;
     margin: 0;
-    font-size: 4vh;
+    font-size: 2vw;
 }
 
 #header_ul {
@@ -62,7 +62,7 @@ a:visited, #header {
     color: white;
 }
 
-#title {
+#name {
     font-size: 2vw;
 }
 /*Following code is specifically for the chevron shapes in the navigation bar*/
@@ -108,12 +108,23 @@ a:visited, #header {
     width: 100%;
 }
 
-#about_me, #skills, #projects, #contact_me {
-    color: white;
-    font-size: 13vh;
+.welcome {
     font-family: Amatic SC, sans-serif;
-    padding: 9.9vh 0 0 0;
+    width: 100vw;
+    font-size: 10vw;
+    position: absolute;
+    top: 0;
+    color: white;
+    left: 42%;
 }
+
+.section_div{
+    height: 50vh;
+    width: 100vw;
+    padding: 7vw 0;
+}
+
+
 
 .title_box, .info_box {
     position: relative;
@@ -138,9 +149,15 @@ a:visited, #header {
 
 .title_box p {
     font-family: Amatic SC, sans-serif;
-    font-size: 5vh;
+    font-size: 2vw;
     margin: 4% 0 0 0;
     color: white;
+}
+
+.title_box .title {
+    color: white;
+    font-size: 7vw;
+    font-family: Amatic SC, sans-serif;
 }
 
 .info_box {
@@ -149,9 +166,17 @@ a:visited, #header {
 
 p {
     font-family: Helvetica, sans-serif;
-    font-size: 2vh;
+    font-size: 1.1vw;
 }
 
+.circle {
+    display: inline;
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+    position: relative;
+    left: 20%;
+}
 /*This is for the pix in the skill section*/
 .skill_img{
     width: 100%;
