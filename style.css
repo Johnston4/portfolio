@@ -163,12 +163,35 @@ a:visited, #header {
     background-color: rgba(255,255, 255, 0.6);
 }
 
+.project_sample {
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    position: relative;
+    margin: 0;
+}
+
+.project_sample_title {
+    position: absolute;
+    z-index: 2;
+    margin:0;
+    border-radius: 50%;
+    color: black;
+    font-style: oblique;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 6% 12% 0 12%;
+    background-color: rgba(255,255,255, 0.5);
+    font-family: Amatic SC, sans-serif;
+    font-size: 6vw;
+}
+
 p {
     font-family: Helvetica, sans-serif;
     font-size: 1.1vw;
 }
 
-.circle {
+.profile_pic {
     display: inline;
     border-radius: 50%;
     width: 20vw;
@@ -176,6 +199,7 @@ p {
     position: relative;
     left: 20%;
 }
+
 /*This is for the pix in the skill section*/
 .skill_img{
     width: 100%;
