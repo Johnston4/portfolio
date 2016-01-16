@@ -108,6 +108,15 @@ a:visited, #header {
     width: 100%;
 }
 
+.profile_pic {
+    display: inline;
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+    position: relative;
+    left: -20%;
+}
+
 .welcome {
     font-family: Amatic SC, sans-serif;
     font-size: 10vw;
@@ -115,12 +124,22 @@ a:visited, #header {
     top: 0;
     color: white;
     left: 42%;
+    line-height: 60%;
+}
+span {
+    font-size:3.2vw;
+
+}
+.intro {
+    font-family: Amatic SC, sans-serif;
+    position: absolute;
 }
 
 .section_div{
     height: 50vh;
     width: 100vw;
     padding: 7vw 0;
+    text-align: center;
 }
 
 
@@ -189,15 +208,6 @@ a:visited, #header {
 p {
     font-family: Helvetica, sans-serif;
     font-size: 1.1vw;
-}
-
-.profile_pic {
-    display: inline;
-    border-radius: 50%;
-    width: 20vw;
-    height: 20vw;
-    position: relative;
-    left: 20%;
 }
 
 /*This is for the pix in the skill section*/
