@@ -1,7 +1,7 @@
 
 body {
     position: relative;
-    background-image: url(pix/Geometric-Abstract-Shapes-Dark-Background.jpg);
+    background-color: black;
     width: 100vw;
     height: auto;
     margin: 0;
@@ -136,15 +136,19 @@ span {
 }
 
 .section_div{
-    height: 50vh;
+    height: auto;
     width: 100vw;
-    padding: 7vw 0;
     text-align: center;
 }
 
+.title_box {
+position: relative;
+height: 10%;
+width:100%;
+#background-color: rgba(105, 105, 105, 0.7);
+}
 
-
-.title_box, .info_box {
+.info_box {
     position: relative;
     margin-bottom: -1px;
     margin-top: 5%;
@@ -153,28 +157,24 @@ span {
     font-family: Amatic SC, sans-serif;
     float: left;
     display: inline-block;
-    width: 25vw;
-    height: 25vw;
+    width: 33vw;
+    height: 33vw;
 }
 
 .top_row{
     margin-top: 5%;
 }
 
-.title_box {
-    background-color: rgba(105, 105, 105, 0.7);
-}
 
 .title_box p {
     font-family: Amatic SC, sans-serif;
     font-size: 2vw;
-    margin: 4% 0 0 0;
     color: white;
 }
 
 .title_box .title {
     color: white;
-    font-size: 7vw;
+    font-size: 5vw;
     font-family: Amatic SC, sans-serif;
 }
 
