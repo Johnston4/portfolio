@@ -4,7 +4,7 @@
     display: inline-block;
     width: 20vw;
     height: 20vw;
-    background-color: yellow;
+    background-color: #ffff67;
 }
 
 .nav_bubble {
@@ -25,7 +25,7 @@
 }
 body {
     position: relative;
-    background-color: yellow;
+    background-color: #ffff67;
     width: 100vw;
     height: auto;
     margin: 0;
@@ -84,52 +84,18 @@ a:link {
 }
 
 a:visited, #header {
-    color: white;
+    color: black;
 }
 
 #name {
     font-size: 2vw;
-}
-/*Following code is specifically for the chevron shapes in the navigation bar*/
-
-.nav_left:after {
-    content: "";
-    border-top: 30px solid transparent;
-    border-bottom: 30px solid transparent;
-    border-right: 30px solid #595959;
-    position: absolute; right: 0; top: 0;
-}
-
-.nav_left:before, .nav_center:before {
-    content: "";
-    border-top: 30px solid transparent;
-    border-bottom: 30px solid transparent;
-    border-right: 30px solid #404040;
-    position: absolute; left: -30px; top: 0;
-}
-
-.nav_right:after, .nav_center:after {
-    content: "";
-    border-top: 30px solid transparent;
-    border-bottom: 30px solid transparent;
-    border-left: 30px solid #404040;
-    position: absolute; right: -30px; top: 0;
-    z-index: 10;
-}
-
-.nav_right:before {
-    content: "";
-    border-top: 30px solid transparent;
-    border-bottom: 30px solid transparent;
-    border-left: 30px solid #595959;
-    position: absolute; left: 0; top: 0;
 }
 
 /*The following is the main content styling*/
 
 #main_content {
     position: relative;
-    top: 10vh;
+    /*top: 10vh;*/
     width: 100%;
 }
 
