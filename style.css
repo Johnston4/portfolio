@@ -2,17 +2,20 @@
 .nav_box {
     position: relative;
     display: inline-block;
-    width: 20vw;
-    height: 20vw;
-    background-color: #ffff67;
+    width: 15vw;
+    height: 15vw;
+    background-color: white;
 }
 
 .nav_bubble {
-    position:relative;
+
     width: 50%;
     height: 50%;
-    background-color: white;
+    background-color: #ffff67;
     border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    margin:0;
 
 }
 .nav_bubble a {
@@ -20,30 +23,31 @@
     /*margin-left: 25%;
     margin-right: 25%;*/
     position: relative;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 30%;
+    font-size: 1.5vw;
+    border-radius: 50%;
 }
 body {
     position: relative;
-    background-color: #ffff67;
-    width: 100vw;
+    background-color: white;
+    width: 100%;
     height: auto;
     margin: 0;
 }
 
 /*The following is for the header list*/
 #header {
-    background-color: white;
     font-family: Amatic SC, sans-serif;
     z-index: 1000;
     position: fixed;
     top: 0;
     left: 0;
-    height: 60px;
+    height: 100px;
     width: 100%;
-    background-color: #595959;
     margin: 0;
     font-size: 2vw;
+    background-color: #ffff67;
 }
 
 #header_ul {
@@ -55,23 +59,6 @@ body {
 
 /*The following is the styling for the navigation bar*/
 
-.nav_right, .nav_center, .nav_left {
-    float: left;
-    background: #404040;
-    text-align: center;
-    position: relative;
-    height: 100%;
-    font-size: 1.5em;
-    text-decoration: none;
-    color: #fff;
-    margin: 0 1.5vw;
-}
-.nav_right{
-    padding: 0 0 0 3vw;
-}
-.nav_left{
-    padding: 0 3vw 0 0;
-}
 
 li {
     height: 100%;
@@ -80,11 +67,11 @@ li {
 }
 a:link {
     text-decoration: none;
-    color: black;
+    color: #6767ff;
 }
 
 a:visited, #header {
-    color: black;
+    color: #6767ff;
 }
 
 #name {
@@ -105,7 +92,7 @@ a:visited, #header {
     width: 20vw;
     height: 20vw;
     position: relative;
-    left: -20%;
+    #left: -20%;
 }
 
 .welcome {
@@ -113,9 +100,10 @@ a:visited, #header {
     font-size: 10vw;
     position: absolute;
     top: 0;
-    color: white;
-    left: 42%;
+    color: black;
+    left: 20%;
     line-height: 60%;
+    margin: 0;
 }
 span {
     font-size:3.2vw;
@@ -128,15 +116,18 @@ span {
 
 .section_div{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     text-align: center;
+
+}
+#about_me {
+    background-color: yellow;
 }
 
 .title_box {
 position: relative;
 height: 10%;
 width:100%;
-#background-color: rgba(105, 105, 105, 0.7);
 }
 
 .info_box {
@@ -148,8 +139,8 @@ width:100%;
     font-family: Amatic SC, sans-serif;
     float: left;
     display: inline-block;
-    width: 33vw;
-    height: 33vw;
+    width: 33%;
+    height: 33%;
 }
 
 .top_row{
@@ -165,7 +156,7 @@ width:100%;
 }
 
 .title_box .title {
-    color: white;
+    color: black;
     margin:0;
     font-size: 5vw;
     font-family: Amatic SC, sans-serif;
@@ -177,8 +168,8 @@ width:100%;
 
 .project_sample {
     border-radius: 50%;
-    width: 25vw;
-    height: 25vw;
+    width: 100%;
+    height: 100%;
     position: relative;
     margin: 0;
 }
