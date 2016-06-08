@@ -1,7 +1,31 @@
 
+.nav_box {
+    position: relative;
+    display: inline-block;
+    width: 20vw;
+    height: 20vw;
+    background-color: yellow;
+}
+
+.nav_bubble {
+    position:relative;
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    border-radius: 50%;
+
+}
+.nav_bubble a {
+    /*text-align: center;*/
+    /*margin-left: 25%;
+    margin-right: 25%;*/
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
 body {
     position: relative;
-    background-color: black;
+    background-color: yellow;
     width: 100vw;
     height: auto;
     margin: 0;
@@ -9,6 +33,7 @@ body {
 
 /*The following is for the header list*/
 #header {
+    background-color: white;
     font-family: Amatic SC, sans-serif;
     z-index: 1000;
     position: fixed;
@@ -55,7 +80,7 @@ li {
 }
 a:link {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 a:visited, #header {
