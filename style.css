@@ -9,6 +9,7 @@
 }
 
 .nav_bubble {
+    text-align: center;
     position: relative;
     width: 100%;
     height: 100%;
@@ -22,15 +23,15 @@
     /*text-align: center;*/
     /*margin-left: 25%;
     margin-right: 25%;*/
+
     position: relative;
-    top: 10%;
-    left: 10%;
+    top: 20%;
     font-size: 1.5vw;
     border-radius: 50%;
 }
 body {
     position: relative;
-    background-color: white;
+    background-color: #FBF6E6;
     width: 100%;
     height: auto;
     margin: 0;
@@ -38,7 +39,7 @@ body {
 
 /*The following is for the header list*/
 #header {
-    font-family: Amatic SC, sans-serif;
+    font-family: Lobster, cursive;
     z-index: 1000;
     position: fixed;
     top: 0;
@@ -47,7 +48,8 @@ body {
     width: 100%;
     margin: 0;
     font-size: 2vw;
-    background-color: #ffff67;
+    /*background-color: #FBF6E6;*/
+    /*colors: f1c8c0 -#EAC8BC #FBF6E6*/
 }
 
 
@@ -61,11 +63,11 @@ li {
 }
 a:link {
     text-decoration: none;
-    color: #6767ff;
+    color: black;
 }
 
 a:visited, #header {
-    color: #6767ff;
+    color: black;
 }
 
 #name {
@@ -86,15 +88,16 @@ a:visited, #header {
 .profile_pic {
     display: inline;
     border-radius: 50%;
-    width: 20vw;
-    height: 20vw;
+    width: 12vw;
+    height: 12vw;
     position: relative;
-    #left: -20%;
+    left: 10%;
+    
 }
 
 .welcome {
     font-family: Amatic SC, sans-serif;
-    font-size: 10vw;
+    font-size: 3.2vw;
     position: absolute;
     top: 0;
     color: black;
@@ -114,17 +117,17 @@ span {
 .section_div{
     height: 100vh;
     width: 100%;
-    text-align: center;
 
 }
 #about_me {
-    background-color: yellow;
+    background-color: #FBECE6;
 }
 
 .title_box {
 position: relative;
 height: 10%;
 width:100%;
+text-align: center;
 }
 
 .info_box {
