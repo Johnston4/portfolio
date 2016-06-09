@@ -1,7 +1,7 @@
 
 .nav_box {
     position: relative;
-    left: 60%;
+    left: 52%;
     display: inline-block;
     width: 5vw;
     height: 5vw;
@@ -91,26 +91,27 @@ a:visited, #header {
     width: 12vw;
     height: 12vw;
     position: relative;
-    left: 10%;
+    left: 8%;
     
 }
 
 .welcome {
-    font-family: Amatic SC, sans-serif;
+    font-family: Oswald, sans-serif;
     font-size: 3.2vw;
     position: absolute;
     top: 0;
-    color: black;
+    color: #bdbdbd;
     left: 20%;
-    line-height: 60%;
+    line-height: 100%;
     margin: 0;
+    text-transform: uppercase;
 }
 span {
     font-size:3.2vw;
 
 }
 .intro {
-    font-family: Amatic SC, sans-serif;
+    font-family: Oswald, sans-serif;
     position: absolute;
 }
 
@@ -136,7 +137,7 @@ text-align: center;
     margin-top: 5%;
     /*if you change margin here, you have to change margin at .top_row*/
     text-align: center;
-    font-family: Amatic SC, sans-serif;
+    font-family: Oswald, sans-serif;
     float: left;
     display: inline-block;
     width: 33%;
@@ -152,14 +153,14 @@ text-align: center;
     
     font-size: 1vw;
     color: white;
-    font-family: Helvetica,Arial,sans-serif;
+    font-family: Oswald,Arial,sans-serif;
 }
 
 .title_box .title {
     color: black;
     margin:0;
     font-size: 5vw;
-    font-family: Amatic SC, sans-serif;
+    font-family: Oswald, sans-serif;
 }
 
 .info_box {
@@ -185,12 +186,12 @@ text-align: center;
     box-sizing: border-box;
     padding: 6% 12% 0 12%;
     background-color: rgba(255,255,255, 0.5);
-    font-family: Amatic SC, sans-serif;
+    font-family: Lodster, cursive;
     font-size: 6vw;
 }
 
 p {
-    font-family: Helvetica, sans-serif;
+    font-family: Oswald, sans-serif;
     font-size: 1.1vw;
 }
 
@@ -224,7 +225,7 @@ p {
     margin: 0;
     text-align: center;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Oswald, sans-serif;
     float: left;
     padding: 1% 0 0 0;
 }
@@ -237,7 +238,7 @@ input, textarea {
 }
 
 textarea {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Oswald, sans-serif;
 }
 
 button {
