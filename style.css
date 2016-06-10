@@ -63,18 +63,19 @@ li {
 }
 a:link {
     text-decoration: none;
-    color: black;
+    color: #BD6867;
 }
 
 a:visited, #header {
-    color: black;
+    color: #BD6867;
 }
 
 #name {
     font-size: 2vw;
     position: relative;
     display: inline-block;
-    left: 5vw;
+    left: 5%;
+    top: 10%;
 }
 
 /*The following is the main content styling*/
@@ -101,7 +102,7 @@ a:visited, #header {
     position: absolute;
     top: 0;
     color: #bdbdbd;
-    left: 20%;
+    left: 10%;
     line-height: 100%;
     margin: 0;
     text-transform: uppercase;
