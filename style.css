@@ -116,7 +116,7 @@ a:visited, #header {
     box-sizing: border-box;
     padding: 3%;
     background-color: rgba(255,255,255,.7);
-    line-height: 150%;
+    line-height: 190%;
     margin: 0;
     text-transform: uppercase;
     text-align: center;
@@ -133,7 +133,8 @@ span {
 }
 
 .section_div{
-    height: 100vh;
+    padding-top: 2px;
+    height: 99vh;
     width: 100%;
 
 }
@@ -168,7 +169,7 @@ text-align: center;
 .info_box {
     position: relative;
     margin-bottom: -1px;
-    margin-top: 5%;
+    margin-top: 10%;
     /*if you change margin here, you have to change margin at .top_row*/
     text-align: center;
     font-family: Oswald, sans-serif;
@@ -233,7 +234,7 @@ p {
 }
 /*This is the box div the skill pix are inside*/
 .img_box {
-    margin-top: 5%;
+    margin-top: 10%;
     position: relative;
     width: 14vw;
     height:13vw;
@@ -242,12 +243,10 @@ p {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-/*This is for the box divs without pix in the skill section*/
-.offset_box {
-    background-color: white;
-    opacity: 0.5;
+.contact_logos a img{
+    width:30%;
+    height:30%;
 }
-
 #footer {
     font-size: 12px;
     position: relative;
