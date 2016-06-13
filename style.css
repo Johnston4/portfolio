@@ -30,15 +30,21 @@
     border-radius: 50%;
 }
 body {
+    /*background-image: url("pix/pine.jpg");*/
+    background-size: 100%;
     position: relative;
-    background-color: #FBF6E6;
+    background-color: #ECE3C9;
     width: 100%;
     height: auto;
     margin: 0;
 }
-
+.main{
+    background-image: url("pix/pine.jpg");
+    background-size: 100%;
+}
 /*The following is for the header list*/
 #header {
+    
     font-family: Lobster, cursive;
     z-index: 1000;
     position: fixed;
@@ -95,19 +101,32 @@ a:visited, #header {
     left: 8%;
     
 }
+.intro_img {
+    width: 100%;
 
+}
 .welcome {
     font-family: Oswald, sans-serif;
-    font-size: 3.5vw;
+    font-size: 3vw;
     position: absolute;
     top: 0;
-    color: #bdbdbd;
-    left: 10%;
-    line-height: 100%;
+    color: #BD6867;
+    top:5%;
+    left:10%;
+    box-sizing: border-box;
+    padding: 3%;
+    background-color: rgba(255,255,255,.7);
+    line-height: 150%;
     margin: 0;
     text-transform: uppercase;
+    text-align: center;
 }
 
+span {
+    font-size: 5vw;
+    display: block;
+    text-align: center;
+}
 .intro {
     font-family: Oswald, sans-serif;
     position: absolute;
@@ -118,17 +137,34 @@ a:visited, #header {
     width: 100%;
 
 }
-#about_me {
-    background-color: #FBECE6;
+#about_me, #projects {
+    background-color: #d4b1b1;
+    /*background-color: #FBECE6;*/
 }
 
+#skills {
+    background-color: #D8AB7D;
+}
+
+.title_box .title, .about p, .info_box{
+    color: #818181;
+}
 .title_box {
 position: relative;
 height: 10%;
 width:100%;
 text-align: center;
 }
-
+.about, .about p {
+    position: relative;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    width:100%;
+    margin-top: 10%;
+    box-sizing: border-box;
+    padding: 0 5%;
+    font-size: 2vw;
+}
 .info_box {
     position: relative;
     margin-bottom: -1px;
@@ -138,14 +174,9 @@ text-align: center;
     font-family: Oswald, sans-serif;
     float: left;
     display: inline-block;
-    width: 33%;
-    height: 33%;
+    width: 32.9vw;
+    height: 32vw;
 }
-
-.top_row{
-    margin-top: 5%;
-}
-
 
 .title_box p {
     
@@ -183,10 +214,10 @@ text-align: center;
     font-style: oblique;
     height: 100%;
     box-sizing: border-box;
-    padding: 6% 12% 0 12%;
+    padding: 35% 12% 0 12%;
     background-color: rgba(255,255,255, 0.5);
-    font-family: Lodster, cursive;
-    font-size: 6vw;
+    font-family: Lobster, cursive;
+    font-size: 3.5vw;
 }
 
 p {
@@ -202,9 +233,10 @@ p {
 }
 /*This is the box div the skill pix are inside*/
 .img_box {
+    margin-top: 5%;
     position: relative;
-    width: 10.71vw;
-    height:12.5vw;
+    width: 14vw;
+    height:13vw;
     display: inline-block;
     float: left;
     background-color: rgba(255, 255, 255, 0.3);
