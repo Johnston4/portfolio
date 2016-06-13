@@ -33,7 +33,7 @@ body {
     /*background-image: url("pix/pine.jpg");*/
     background-size: 100%;
     position: relative;
-    background-color: #ECE3C9;
+    background-color: #F9EED3;
     width: 100%;
     height: auto;
     margin: 0;
@@ -138,12 +138,12 @@ span {
 
 }
 #about_me, #projects {
-    background-color: #d4b1b1;
+    background-color: #F9DBD3;
     /*background-color: #FBECE6;*/
 }
 
 #skills {
-    background-color: #D8AB7D;
+    background-color: #F9EED3;
 }
 
 .title_box .title, .about p, .info_box{
